@@ -1,0 +1,90 @@
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+body{
+	background-color: #EEEEEE;
+}
+
+
+td{
+	text-align: center;
+}
+
+table{
+	width: 100px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border:0;
+    border-top: 20px solid #669999;
+    padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.content{
+	width: 70%;
+	margin: auto;
+	background-color: #fff;
+}
+
+.header{
+	text-align: center;
+	color: #669999;
+	
+}
+
+.product{
+	display: grid;
+  	grid-template-columns: 250px 250px 250px 250px;
+  	grid-gap: 20px;
+  	
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+}
+
+.box{
+	margin:auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #fff;
+}
+
+.box:hover{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #669999;
+}
+
+.title{
+	color: #003333;
+}
+
+.description{
+	color: #999999;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+.discount{
+	background-color: #FF3333;
+	color: #fff;
+	font-size: 14px;
+}
+
+.oriPrice{
+	color: #999999;
+	font-size: 12px;
+	text-decoration: line-through;
+}
+
+.newPrice{
+	color: #669999;
+	font-size: 18px;
+}
+
